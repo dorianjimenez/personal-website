@@ -1,21 +1,22 @@
 import React from 'react';
-import { Document, Page, pdfjs } from 'react-pdf';
-import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
-
-// Set PDF.js worker source
-pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+import Iframe from 'react-iframe';
 
 function Resume() {
-    const pdfURL = '/path-to-your-resume.pdf'; // Replace with the actual URL or file path of your PDF resume
+    // Replace 'your_pdf_url.pdf' with the actual URL or path to your PDF file
+    const pdfUrl = './../../resume.pdf';
 
     return (
-        <div className="container mx-auto mt-6">
-            <h1 className="text-2xl font-bold mb-4">My Resume</h1>
-            <div className="pdf-container">
-                <Document file={pdfURL} loading={<div>Loading PDF...</div>}>
-                    <Page pageNumber={1} />
-                </Document>
-            </div>
+        <div className="container mx-auto mt-4">
+            <h1 className="text-2xl font-bold mb-4">Jimenez, Dorian Resume (last updated 9/9/2023)</h1>
+            <Iframe
+                url={pdfUrl}
+                width="100%"
+                height="1000px" // You can adjust the height as needed
+                id="resume-pdf"
+                display="initial"
+                position="relative"
+                className='mb-10'
+            />
         </div>
     );
 }
