@@ -1,3 +1,7 @@
+
+Issues I had was AWS had default redirects and rewrite rules (if undefined path it redirects to homepage probably to avoid 404s), which weren't allowing me to access files in my public folder (specifically my reusme.pdf) from the url path. Had to delete these rules.
+https://stackoverflow.com/questions/65030439/public-directory-is-not-deployed-on-aws-amplify
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

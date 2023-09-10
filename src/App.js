@@ -4,6 +4,7 @@ import Main from './pages/Main';
 import Resume from './pages/Resume';
 import SubTitle from './components/SubTitle';
 import Wave from './components/Wave';
+import SkillSet from './components/SkillSet';
 
 
 function App() {
@@ -32,8 +33,8 @@ function App() {
       <div className="w-full py-10">
         <div className='h-10'></div>
         <div className="w-11/12 sm:w-8/12 m-auto">
-          <SubTitle>Skills (last updated 9/9/2023)</SubTitle>
-          <Resume />
+          <SubTitle>Skill Set</SubTitle>
+          <SkillSet />
         </div>
       </div>
 

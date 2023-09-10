@@ -3,7 +3,7 @@ import Iframe from 'react-iframe';
 
 function Resume() {
     // Replace 'your_pdf_url.pdf' with the actual URL or path to your PDF file
-    const pdfUrl = `${process.env.PUBLIC_URL}/resume.pdf`;
+    const pdfUrl = '/resume.pdf';
 
     return (
         <div className="container mx-auto mt-4">
