@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <TopBar />
-      <div className="h-screen mb-4">
+      <div className="h-screen -mb-20">
         <div className="h-1/6 -mt-16"></div>
         <Main />
       </div>
@@ -19,8 +19,8 @@ function App() {
       <Wave inverted={false} />
 
 
-      <div className="w-full bg-gray-100 py-10">
-        <div className='h-12'></div>
+      <div className="w-full bg-gray-100 py-10 ">
+        <div className='h-10'></div>
         <div className="w-11/12 sm:w-8/12 m-auto">
           <SubTitle>Resume (last updated 9/9/2023)</SubTitle>
           <Resume />
@@ -30,9 +30,9 @@ function App() {
       <Wave inverted={true} />
 
       <div className="w-full py-10">
-        <div className='h-12'></div>
+        <div className='h-10'></div>
         <div className="w-11/12 sm:w-8/12 m-auto">
-          <SubTitle>Resume (last updated 9/9/2023)</SubTitle>
+          <SubTitle>Skills (last updated 9/9/2023)</SubTitle>
           <Resume />
         </div>
       </div>

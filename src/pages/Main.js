@@ -7,7 +7,7 @@ function Main() {
             <div className="flex flex-col lg:flex-row items-center">
                 {/* Left side (Image) */}
                 <div className="lg:w-1/2 lg:mr-4 flex items-center justify-center"> {/* Center horizontally and vertically */}
-                    <div className="relative rounded-xl overflow-hidden shadow-md" style={{ width: '500px', height: '500px' }}>
+                    <div className="relative rounded-xl overflow-hidden shadow-md" style={{ width: '450px', height: '450px' }}>
                         <img
                             src="/dorian-photo.jpg"
                             alt="Your Profile"
