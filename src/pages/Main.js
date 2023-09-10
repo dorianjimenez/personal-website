@@ -1,19 +1,19 @@
 import React from 'react';
 
-function AboutMe() {
-
-    const imagePath = `${process.env.PUBLIC_URL}/public/pfp.jpg`;
+function Main() {
 
     return (
         <div className="container mx-auto mt-4 p-4">
             <div className="flex flex-col lg:flex-row items-center">
                 {/* Left side (Image) */}
-                <div className="lg:w-1/2 lg:mr-4">
-                    <img
-                        src="/dorian-photo.jpg"
-                        alt="Your Profile"
-                        className="rounded-xl overflow-hidden shadow-md"
-                    />
+                <div className="lg:w-1/2 lg:mr-4 flex items-center justify-center"> {/* Center horizontally and vertically */}
+                    <div className="relative rounded-xl overflow-hidden shadow-md" style={{ width: '500px', height: '500px' }}>
+                        <img
+                            src="/dorian-photo.jpg"
+                            alt="Your Profile"
+                            className="object-cover w-full h-full"
+                        />
+                    </div>
                 </div>
 
                 {/* Right side (Text) */}
@@ -31,4 +31,4 @@ function AboutMe() {
     );
 }
 
-export default AboutMe;
+export default Main;

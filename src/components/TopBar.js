@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
-function Header() {
+function TopBar() {
     return (
         <div className="hidden sm:block absolute w-full bg-white sm:top-0 z-20">
             <div className="sm:w-6/12 sm:flex py-2 m-auto">
@@ -25,4 +25,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default TopBar;

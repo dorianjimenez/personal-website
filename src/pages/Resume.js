@@ -7,7 +7,6 @@ function Resume() {
 
     return (
         <div className="container mx-auto mt-4">
-            <h1 className="text-2xl font-bold mb-4">Jimenez, Dorian Resume (last updated 9/9/2023)</h1>
             <Iframe
                 url={pdfUrl}
                 width="100%"
