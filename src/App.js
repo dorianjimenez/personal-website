@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
+import Home from './pages/Home';
 // import About from './components/About';
 // import Projects from './components/Projects';
 // import Contact from './components/Contact';
@@ -19,10 +20,6 @@ function App() {
       </Routes>
     </Router>
   );
-}
-
-function Home() {
-  return <h1>Welcome to My Portfolio</h1>;
 }
 
 export default App;
