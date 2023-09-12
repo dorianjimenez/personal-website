@@ -15,6 +15,17 @@ const SkillSet = () => {
                 ]}
             />
             <SkillList
+                title="Miscellaneous"
+                skills={[
+                    { name: "Git", experience: "(4 YOE)" },
+                    { name: "IoT", experience: "(4 YOE)" },
+                    { name: "Docker", experience: "(2 YOE)" },
+                    { name: "Networking", experience: "(2 YOE)" },
+                    { name: "ML", experience: "primarily CV" },
+                    { name: "NoSQL", experience: "(1 YOE, primarily MongoDB)" }
+                ]}
+            />
+            <SkillList
                 title="Backend"
                 skills={[
                     { name: "AWS", experience: "Certified SAA" },
@@ -34,16 +45,7 @@ const SkillSet = () => {
                     { name: "Tailwind", experience: "(1 YOE)" },
                 ]}
             />
-            <SkillList
-                title="Miscellaneous"
-                skills={[
-                    { name: "Git", experience: "(4 YOE)" },
-                    { name: "IoT", experience: "(4 YOE)" },
-                    { name: "Docker", experience: "(2 YOE)" },
-                    { name: "Networking", experience: "(2 YOE)" },
-                    { name: "ML", experience: "primarily CV" }
-                ]}
-            />
+
         </div>
     );
 };

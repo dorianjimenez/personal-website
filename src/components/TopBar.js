@@ -10,13 +10,13 @@ function TopBar() {
                 </div>
 
                 <div className="sm:flex w-1/2 place-content-end space-x-4">
-                    <a href="https://github.com/dorianjimenez" className="my-auto">
-                        <AiFillGithub size="1.5rem" className=" my-auto text-gray-400 hover:text-black" />
+                    <a href="https://github.com/dorianjimenez" target="_blank" rel="noopener noreferrer" className="my-auto">
+                        <AiFillGithub size="1.5rem" className="my-auto text-gray-400 hover:text-black" />
                     </a>
-                    <a href="https://www.linkedin.com/in/dorian-jimenez-636078193/" className="my-auto">
+                    <a href="https://www.linkedin.com/in/dorian-jimenez-636078193/" target="_blank" rel="noopener noreferrer" className="my-auto">
                         <AiFillLinkedin size="1.5rem" className="my-auto text-gray-400 hover:text-black" />
                     </a>
-                    <a href="https://github.com/dorianjimenez/personal-website" className="my-auto text-gray-400 cursor-pointer hover:text-black">
+                    <a href="https://github.com/dorianjimenez/personal-website" target="_blank" rel="noopener noreferrer" className="my-auto text-gray-400 cursor-pointer hover:text-black">
                         Code for this website
                     </a>
                 </div>

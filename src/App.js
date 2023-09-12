@@ -5,6 +5,8 @@ import Resume from './pages/Resume';
 import SubTitle from './components/SubTitle';
 import Wave from './components/Wave';
 import SkillSet from './components/SkillSet';
+import Contact from './components/Contact';
+import ProjectList from './components/ProjectList';
 
 
 function App() {
@@ -30,13 +32,36 @@ function App() {
 
       <Wave inverted={true} />
 
-      <div className="w-full py-10">
+      <div className="w-full py-10 -mb-10">
         <div className='h-10'></div>
         <div className="w-11/12 sm:w-8/12 m-auto">
           <SubTitle>Skill Set</SubTitle>
           <SkillSet />
         </div>
       </div>
+
+      <Wave inverted={false} />
+
+
+      <div className="w-full bg-gray-100 py-10 ">
+        <div className='h-10'></div>
+        <div className="w-11/12 sm:w-8/12 m-auto">
+          <SubTitle>Projects</SubTitle>
+          <ProjectList />
+        </div>
+      </div>
+
+      <Wave inverted={true} />
+
+
+      <div className="w-full py-10 ">
+        <div className='h-10'></div>
+        <div className="w-11/12 sm:w-8/12 m-auto">
+          <SubTitle>Contact</SubTitle>
+          <Contact />
+        </div>
+      </div>
+
 
       {/* <TableOfContents />
       <Hotbar />

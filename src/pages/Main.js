@@ -19,10 +19,10 @@ function Main() {
                 {/* Right side (Text) */}
                 <div className="lg:w-1/2">
                     <p className="mb-4">
-                        Hello! I'm [Your Name], a passionate [Your Profession/Title] with [X] years of experience in [Your Field]. I love to [mention your interests or skills].
+                        Hello, I'm Dorian Jimenez (I also go by Dor), a 1st year Computer Science Master's Student @ UCLA. I'm interested in Backend Development, Big Data, Cybersecurity, as well as Embedded Systems! I'm currently looking for a Summer 2024 Software Engineering Internship as well as a full-time job starting in January 2025.
                     </p>
                     <p className="mb-4">
-                        In my free time, I enjoy [mention your hobbies or interests]. I'm also proficient in [mention relevant skills].
+                        In my free time, I enjoy making my own music on my computer, biking, and skateboarding. I also like cats, (certain) internet subcultures, and EDM music!
                     </p>
                     {/* Add more text content as needed */}
                 </div>
