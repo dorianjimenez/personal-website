@@ -1,4 +1,13 @@
 import React from 'react';
+import SimpleImageSlider from "react-simple-image-slider";
+
+const images = [
+    { url: "pfp/photo-1.jpg" },
+    { url: "pfp/photo-2.jpg" },
+    { url: "pfp/photo-3.jpg" },
+    { url: "pfp/photo-4.jpg" },
+    { url: "pfp/photo-5.jpg" },
+];
 
 function Main() {
 
@@ -8,10 +17,13 @@ function Main() {
                 {/* Left side (Image) */}
                 <div className="lg:w-1/2 lg:mr-4 flex items-center justify-center"> {/* Center horizontally and vertically */}
                     <div className="relative rounded-xl overflow-hidden shadow-md" style={{ width: '450px', height: '450px' }}>
-                        <img
-                            src="/dorian-photo.jpg"
-                            alt="Your Profile"
-                            className="object-cover w-full h-full"
+                        <SimpleImageSlider
+                            width={450}
+                            height={450}
+                            images={images}
+                            showBullets={true}
+                            showNavs={true}
+                            autoPlay={true}
                         />
                     </div>
                 </div>
