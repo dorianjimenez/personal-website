@@ -16,7 +16,7 @@ function Main() {
             <div className="lg:flex items-center">
                 {/* Left side (Image) */}
                 <div className="lg:w-1/2 flex items-center justify-center">
-                    <div >
+                    <div className="relative rounded-xl overflow-hidden w-4/6 h-3/4">
                         <SimpleImageSlider
                             width={450}
                             height={450}
@@ -25,7 +25,7 @@ function Main() {
                             showNavs={true}
                             autoPlay={true}
                             autoPlayDelay={5}
-                            className="relative rounded-xl overflow-hidden w-4/6 h-3/4"
+                            className="rounded-xl overflow-hidden h-full"
                         />
                     </div>
                 </div>
