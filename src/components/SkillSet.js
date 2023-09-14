@@ -3,7 +3,7 @@ import SkillList from "./SkillList";
 
 const SkillSet = () => {
     return (
-        <div className="flex">
+        <div className="flex flex-col lg:flex-row">
             <SkillList
                 title="Frontend"
                 skills={[

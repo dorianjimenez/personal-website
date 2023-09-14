@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Project = ({
     name,
     imgPath,
@@ -25,7 +26,7 @@ const Project = ({
                     ))}
                 </div>
                 <p className="text-md mb-2">{description}</p>
-                <div className="flex flex-row justify-start items-center w-full">
+                <div className="flex flex-row justify-start items-center w-full pb-3">
                     {srcLink && (
                         <>
                             <a
@@ -68,7 +69,7 @@ const Project = ({
                     )}
                 </div>
             </div>
-            <div className="flex justify-center items-center w-full md:w-1/2" style={{ width: '550px', height: '250px', overflow: 'hidden' }}>
+            <div className="flex justify-center items-center w-full md:w-[550px] h-[250px] overflow-hidden " >
                 <img
                     src={imgPath}
                     alt={imgAlt}
