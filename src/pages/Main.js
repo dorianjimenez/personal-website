@@ -15,17 +15,16 @@ function Main() {
         <div className="container mx-auto mt-4 p-4">
             <div className="lg:flex items-center">
                 {/* Left side (Image) */}
-                <div className="lg:w-1/2 flex items-center justify-center">
-                    <div className="relative rounded-xl overflow-hidden w-4/6 h-3/4">
+                <div className="lg:w-1/2 mb-8 lg:m-0 flex items-center justify-center">
+                    <div className="relative rounded-xl overflow-hidden w-[450px] h-[450px]">
                         <SimpleImageSlider
                             width={450}
                             height={450}
                             images={images}
-                            showBullets={true}
                             showNavs={true}
                             autoPlay={true}
                             autoPlayDelay={5}
-                            className="rounded-xl overflow-hidden h-full"
+                            showBullets={false}
                         />
                     </div>
                 </div>
