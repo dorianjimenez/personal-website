@@ -38,7 +38,7 @@ const ProjectList = () => {
                     imgPath="/project-card-reliable-transport-protocol-over-udp.png"
                     imgAlt="Photo of Reliable Transport Protocol over UDP"
                     tags={["Networking", "TCP/UDP", "C++", "C++ Socket Programming", "Client/Server Architecture"]}
-                    description="A transport protocol with TCP Tahoe congestion control, 3-way Handshake, and other error handling features built on top of UDP. I built this for my CS118 (Computer Networking) class at UCLA."
+                    description="I developed a transport protocol with TCP Tahoe congestion control, 3-way Handshake, and other error handling features built on top of UDP. I built this for my CS118 (Computer Networking) class at UCLA."
                     srcLink="https://gist.github.com/dorianjimenez/073888f0970d9018a2d994aad0871fa0"
                 />
             </div>

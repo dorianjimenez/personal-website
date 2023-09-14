@@ -1,7 +1,7 @@
 import React from 'react';
-import TopBar from './components/TopBar';
 import Main from './pages/Main';
-import Resume from './pages/Resume';
+import TopBar from './components/TopBar';
+import Resume from './components/Resume';
 import SubTitle from './components/SubTitle';
 import Wave from './components/Wave';
 import SkillSet from './components/SkillSet';
@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <TopBar />
-      <div className="h-screen -mb-20">
+      <div className="w-full" style={{ height: "90vh" }}>
         <div className="h-1/6 -mt-16"></div>
         <Main />
       </div>
@@ -88,7 +88,7 @@ function App() {
         <Contact />
       </div>
   */ }
-    </div>
+    </div >
   );
 }
 
